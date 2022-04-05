@@ -46,6 +46,11 @@ const Layout = ({ pageTitle, children }) => {
               Partner
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/service" className={navLinkText}>
+              Jasa
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
